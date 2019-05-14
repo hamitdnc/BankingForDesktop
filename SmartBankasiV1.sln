@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartBankasi.DLL", "SmartBankasi.DLL\SmartBankasi.DLL.csproj", "{C836FFE5-3B47-4E68-B445-74A28625F92E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartBankasi.BLL", "SmartBankasi.BLL\SmartBankasi.BLL.csproj", "{5F31A7F0-D033-4C4F-9D01-9D82DB0A8131}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartBankasi.UI", "SmartBankasi.UI\SmartBankasi.UI.csproj", "{50C3AEBA-AE4D-41D8-855E-4E2348BB04F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C836FFE5-3B47-4E68-B445-74A28625F92E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C836FFE5-3B47-4E68-B445-74A28625F92E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C836FFE5-3B47-4E68-B445-74A28625F92E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C836FFE5-3B47-4E68-B445-74A28625F92E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F31A7F0-D033-4C4F-9D01-9D82DB0A8131}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F31A7F0-D033-4C4F-9D01-9D82DB0A8131}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F31A7F0-D033-4C4F-9D01-9D82DB0A8131}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F31A7F0-D033-4C4F-9D01-9D82DB0A8131}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50C3AEBA-AE4D-41D8-855E-4E2348BB04F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50C3AEBA-AE4D-41D8-855E-4E2348BB04F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50C3AEBA-AE4D-41D8-855E-4E2348BB04F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50C3AEBA-AE4D-41D8-855E-4E2348BB04F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

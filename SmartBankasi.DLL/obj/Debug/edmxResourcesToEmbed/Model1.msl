@@ -1,0 +1,375 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SmartBankDBModelStoreContainer" CdmEntityContainer="SmartBankDBEntities">
+    <EntitySetMapping Name="BireyselMusteriUrunleri">
+      <EntityTypeMapping TypeName="SmartBankDBModel.BireyselMusteriUrunleri">
+        <MappingFragment StoreEntitySet="BireyselMusteriUrunleri">
+          <ScalarProperty Name="KullaniciID" ColumnName="KullaniciID" />
+          <ScalarProperty Name="BireyselMusteriUrunleriID" ColumnName="BireyselMusteriUrunleriID" />
+          <ScalarProperty Name="UrunID" ColumnName="UrunID" />
+          <ScalarProperty Name="IBAN" ColumnName="IBAN" />
+          <ScalarProperty Name="HesapNumarasi" ColumnName="HesapNumarasi" />
+          <ScalarProperty Name="BireyselMusteriID" ColumnName="BireyselMusteriID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Faturalar">
+      <EntityTypeMapping TypeName="SmartBankDBModel.Faturalar">
+        <MappingFragment StoreEntitySet="Faturalar">
+          <ScalarProperty Name="KullaniciID" ColumnName="KullaniciID" />
+          <ScalarProperty Name="FaturalarID" ColumnName="FaturalarID" />
+          <ScalarProperty Name="FaturaTarihi" ColumnName="FaturaTarihi" />
+          <ScalarProperty Name="FaturaSaati" ColumnName="FaturaSaati" />
+          <ScalarProperty Name="MusteriTuruID" ColumnName="MusteriTuruID" />
+          <ScalarProperty Name="MusteriID" ColumnName="MusteriID" />
+          <ScalarProperty Name="OdemePlaniID" ColumnName="OdemePlaniID" />
+          <ScalarProperty Name="Aciklama" ColumnName="Aciklama" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Gelirler">
+      <EntityTypeMapping TypeName="SmartBankDBModel.Gelirler">
+        <MappingFragment StoreEntitySet="Gelirler">
+          <ScalarProperty Name="KullaniciID" ColumnName="KullaniciID" />
+          <ScalarProperty Name="GelirlerID" ColumnName="GelirlerID" />
+          <ScalarProperty Name="GelirTarihi" ColumnName="GelirTarihi" />
+          <ScalarProperty Name="GelirSaati" ColumnName="GelirSaati" />
+          <ScalarProperty Name="Faizlimi" ColumnName="Faizlimi" />
+          <ScalarProperty Name="FaizOrani" ColumnName="FaizOrani" />
+          <ScalarProperty Name="ParaBirimiID" ColumnName="ParaBirimiID" />
+          <ScalarProperty Name="OdemePlaniID" ColumnName="OdemePlaniID" />
+          <ScalarProperty Name="OdemeMiktari" ColumnName="OdemeMiktari" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Giderler">
+      <EntityTypeMapping TypeName="SmartBankDBModel.Giderler">
+        <MappingFragment StoreEntitySet="Giderler">
+          <ScalarProperty Name="KullaniciID" ColumnName="KullaniciID" />
+          <ScalarProperty Name="GiderlerID" ColumnName="GiderlerID" />
+          <ScalarProperty Name="SubeGiderTuruID" ColumnName="SubeGiderTuruID" />
+          <ScalarProperty Name="Tarihi" ColumnName="Tarihi" />
+          <ScalarProperty Name="Miktari" ColumnName="Miktari" />
+          <ScalarProperty Name="Aciklama" ColumnName="Aciklama" />
+          <ScalarProperty Name="Faizlimi" ColumnName="Faizlimi" />
+          <ScalarProperty Name="FaizOrani" ColumnName="FaizOrani" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Gorevler">
+      <EntityTypeMapping TypeName="SmartBankDBModel.Gorevler">
+        <MappingFragment StoreEntitySet="Gorevler">
+          <ScalarProperty Name="GorevlerID" ColumnName="GorevlerID" />
+          <ScalarProperty Name="GorevAdi" ColumnName="GorevAdi" />
+          <ScalarProperty Name="Aciklama" ColumnName="Aciklama" />
+          <ScalarProperty Name="KullaniciID" ColumnName="KullaniciID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Kampanyalar">
+      <EntityTypeMapping TypeName="SmartBankDBModel.Kampanyalar">
+        <MappingFragment StoreEntitySet="Kampanyalar">
+          <ScalarProperty Name="KullaniciID" ColumnName="KullaniciID" />
+          <ScalarProperty Name="KampanyalarID" ColumnName="KampanyalarID" />
+          <ScalarProperty Name="BaslangicTarihi" ColumnName="BaslangicTarihi" />
+          <ScalarProperty Name="BirisTarihi" ColumnName="BirisTarihi" />
+          <ScalarProperty Name="KampanyaAdi" ColumnName="KampanyaAdi" />
+          <ScalarProperty Name="Aciklama" ColumnName="Aciklama" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Kullanicilar">
+      <EntityTypeMapping TypeName="SmartBankDBModel.Kullanicilar">
+        <MappingFragment StoreEntitySet="Kullanicilar">
+          <ScalarProperty Name="KullaniciID" ColumnName="KullaniciID" />
+          <ScalarProperty Name="KullanicilarID" ColumnName="KullanicilarID" />
+          <ScalarProperty Name="TC" ColumnName="TC" />
+          <ScalarProperty Name="PersonelAdi" ColumnName="PersonelAdi" />
+          <ScalarProperty Name="PersonelSoyadi" ColumnName="PersonelSoyadi" />
+          <ScalarProperty Name="KullaniciAdi" ColumnName="KullaniciAdi" />
+          <ScalarProperty Name="KullaniciSifre" ColumnName="KullaniciSifre" />
+          <ScalarProperty Name="YetkiID" ColumnName="YetkiID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="KurumsalMusteriler">
+      <EntityTypeMapping TypeName="SmartBankDBModel.KurumsalMusteriler">
+        <MappingFragment StoreEntitySet="KurumsalMusteriler">
+          <ScalarProperty Name="KullaniciID" ColumnName="KullaniciID" />
+          <ScalarProperty Name="MusteriTuruID" ColumnName="MusteriTuruID" />
+          <ScalarProperty Name="KurumsalMusterilerID" ColumnName="KurumsalMusterilerID" />
+          <ScalarProperty Name="KurumAdi" ColumnName="KurumAdi" />
+          <ScalarProperty Name="KurumAdres" ColumnName="KurumAdres" />
+          <ScalarProperty Name="Telefon1" ColumnName="Telefon1" />
+          <ScalarProperty Name="Telefon2" ColumnName="Telefon2" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Aciklama" ColumnName="Aciklama" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="KurumsalMusteriUrunleri">
+      <EntityTypeMapping TypeName="SmartBankDBModel.KurumsalMusteriUrunleri">
+        <MappingFragment StoreEntitySet="KurumsalMusteriUrunleri">
+          <ScalarProperty Name="KullaniciID" ColumnName="KullaniciID" />
+          <ScalarProperty Name="KurumsalMusteriUrunleriID" ColumnName="KurumsalMusteriUrunleriID" />
+          <ScalarProperty Name="UrunID" ColumnName="UrunID" />
+          <ScalarProperty Name="KurumsalYetkiliID" ColumnName="KurumsalYetkiliID" />
+          <ScalarProperty Name="IBAN" ColumnName="IBAN" />
+          <ScalarProperty Name="HesapNumarasi" ColumnName="HesapNumarasi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="KurumsalYetkililer">
+      <EntityTypeMapping TypeName="SmartBankDBModel.KurumsalYetkililer">
+        <MappingFragment StoreEntitySet="KurumsalYetkililer">
+          <ScalarProperty Name="KullaniciID" ColumnName="KullaniciID" />
+          <ScalarProperty Name="KurumsalYetkililerID" ColumnName="KurumsalYetkililerID" />
+          <ScalarProperty Name="TC" ColumnName="TC" />
+          <ScalarProperty Name="Adi" ColumnName="Adi" />
+          <ScalarProperty Name="Soyadi" ColumnName="Soyadi" />
+          <ScalarProperty Name="Gorevi" ColumnName="Gorevi" />
+          <ScalarProperty Name="Telefon1" ColumnName="Telefon1" />
+          <ScalarProperty Name="Telefon2" ColumnName="Telefon2" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="KurumsalMusteriID" ColumnName="KurumsalMusteriID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MusteriTurleri">
+      <EntityTypeMapping TypeName="SmartBankDBModel.MusteriTurleri">
+        <MappingFragment StoreEntitySet="MusteriTurleri">
+          <ScalarProperty Name="MusteriTurleriID" ColumnName="MusteriTurleriID" />
+          <ScalarProperty Name="TurAdi" ColumnName="TurAdi" />
+          <ScalarProperty Name="Aciklama" ColumnName="Aciklama" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Odemeler">
+      <EntityTypeMapping TypeName="SmartBankDBModel.Odemeler">
+        <MappingFragment StoreEntitySet="Odemeler">
+          <ScalarProperty Name="KullaniciID" ColumnName="KullaniciID" />
+          <ScalarProperty Name="MusteriTuruID" ColumnName="MusteriTuruID" />
+          <ScalarProperty Name="MusteriID" ColumnName="MusteriID" />
+          <ScalarProperty Name="OdemePlaniID" ColumnName="OdemePlaniID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OdemePlanlari">
+      <EntityTypeMapping TypeName="SmartBankDBModel.OdemePlanlari">
+        <MappingFragment StoreEntitySet="OdemePlanlari">
+          <ScalarProperty Name="KullaniciID" ColumnName="KullaniciID" />
+          <ScalarProperty Name="OdemePlanlariID" ColumnName="OdemePlanlariID" />
+          <ScalarProperty Name="Taksit1" ColumnName="Taksit1" />
+          <ScalarProperty Name="Taksit1Tarihi" ColumnName="Taksit1Tarihi" />
+          <ScalarProperty Name="Taksit2" ColumnName="Taksit2" />
+          <ScalarProperty Name="Taksit2Tarihi" ColumnName="Taksit2Tarihi" />
+          <ScalarProperty Name="Taksit3" ColumnName="Taksit3" />
+          <ScalarProperty Name="Taksit3Tarihi" ColumnName="Taksit3Tarihi" />
+          <ScalarProperty Name="Taksit4" ColumnName="Taksit4" />
+          <ScalarProperty Name="Taksit4Tarihi" ColumnName="Taksit4Tarihi" />
+          <ScalarProperty Name="Taksit5" ColumnName="Taksit5" />
+          <ScalarProperty Name="Taksit5Tarihi" ColumnName="Taksit5Tarihi" />
+          <ScalarProperty Name="Taksit6" ColumnName="Taksit6" />
+          <ScalarProperty Name="Taksit6Tarihi" ColumnName="Taksit6Tarihi" />
+          <ScalarProperty Name="Taksit7" ColumnName="Taksit7" />
+          <ScalarProperty Name="Taksit7Tarihi" ColumnName="Taksit7Tarihi" />
+          <ScalarProperty Name="Taksit8" ColumnName="Taksit8" />
+          <ScalarProperty Name="Taksit8Tarihi" ColumnName="Taksit8Tarihi" />
+          <ScalarProperty Name="Taksit9" ColumnName="Taksit9" />
+          <ScalarProperty Name="Taksit9Tarihi" ColumnName="Taksit9Tarihi" />
+          <ScalarProperty Name="Taksit10" ColumnName="Taksit10" />
+          <ScalarProperty Name="Taksit10Tarihi" ColumnName="Taksit10Tarihi" />
+          <ScalarProperty Name="Taksit11" ColumnName="Taksit11" />
+          <ScalarProperty Name="Taksit11Tarihi" ColumnName="Taksit11Tarihi" />
+          <ScalarProperty Name="Taksit12" ColumnName="Taksit12" />
+          <ScalarProperty Name="Taksit12Tarihi" ColumnName="Taksit12Tarihi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OdemeTurleri">
+      <EntityTypeMapping TypeName="SmartBankDBModel.OdemeTurleri">
+        <MappingFragment StoreEntitySet="OdemeTurleri">
+          <ScalarProperty Name="KullaniciID" ColumnName="KullaniciID" />
+          <ScalarProperty Name="OdemeTurleriID" ColumnName="OdemeTurleriID" />
+          <ScalarProperty Name="TurAdi" ColumnName="TurAdi" />
+          <ScalarProperty Name="ParaBirimiID" ColumnName="ParaBirimiID" />
+          <ScalarProperty Name="Aciklama" ColumnName="Aciklama" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ParaBirimleri">
+      <EntityTypeMapping TypeName="SmartBankDBModel.ParaBirimleri">
+        <MappingFragment StoreEntitySet="ParaBirimleri">
+          <ScalarProperty Name="ParaBirimleriID" ColumnName="ParaBirimleriID" />
+          <ScalarProperty Name="BirimAdi" ColumnName="BirimAdi" />
+          <ScalarProperty Name="Aciklama" ColumnName="Aciklama" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PersonelDetay">
+      <EntityTypeMapping TypeName="SmartBankDBModel.PersonelDetay">
+        <MappingFragment StoreEntitySet="PersonelDetay">
+          <ScalarProperty Name="KullaniciID" ColumnName="KullaniciID" />
+          <ScalarProperty Name="PersonelDetaylariID" ColumnName="PersonelDetaylariID" />
+          <ScalarProperty Name="GirisTarihi" ColumnName="GirisTarihi" />
+          <ScalarProperty Name="CikisTarihi" ColumnName="CikisTarihi" />
+          <ScalarProperty Name="PersonelID" ColumnName="PersonelID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PersonelGorevYerleri">
+      <EntityTypeMapping TypeName="SmartBankDBModel.PersonelGorevYerleri">
+        <MappingFragment StoreEntitySet="PersonelGorevYerleri">
+          <ScalarProperty Name="KullaniciID" ColumnName="KullaniciID" />
+          <ScalarProperty Name="PersonelGorevYerleriID" ColumnName="PersonelGorevYerleriID" />
+          <ScalarProperty Name="PersonelID" ColumnName="PersonelID" />
+          <ScalarProperty Name="BaslangicTarihi" ColumnName="BaslangicTarihi" />
+          <ScalarProperty Name="BitisTarihi" ColumnName="BitisTarihi" />
+          <ScalarProperty Name="GorevID" ColumnName="GorevID" />
+          <ScalarProperty Name="SubeID" ColumnName="SubeID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PersonelMaaslari">
+      <EntityTypeMapping TypeName="SmartBankDBModel.PersonelMaaslari">
+        <MappingFragment StoreEntitySet="PersonelMaaslari">
+          <ScalarProperty Name="KullaniciID" ColumnName="KullaniciID" />
+          <ScalarProperty Name="PersonelMaaslarID" ColumnName="PersonelMaaslarID" />
+          <ScalarProperty Name="MaasBaslangicTarihi" ColumnName="MaasBaslangicTarihi" />
+          <ScalarProperty Name="MaasBitisTarihi" ColumnName="MaasBitisTarihi" />
+          <ScalarProperty Name="Maas" ColumnName="Maas" />
+          <ScalarProperty Name="PersonelID" ColumnName="PersonelID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SubeGiderTurleri">
+      <EntityTypeMapping TypeName="SmartBankDBModel.SubeGiderTurleri">
+        <MappingFragment StoreEntitySet="SubeGiderTurleri">
+          <ScalarProperty Name="KullaniciID" ColumnName="KullaniciID" />
+          <ScalarProperty Name="SubeGiderTurleriID" ColumnName="SubeGiderTurleriID" />
+          <ScalarProperty Name="GiderTuruAdi" ColumnName="GiderTuruAdi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Subeler">
+      <EntityTypeMapping TypeName="SmartBankDBModel.Subeler">
+        <MappingFragment StoreEntitySet="Subeler">
+          <ScalarProperty Name="KullaniciID" ColumnName="KullaniciID" />
+          <ScalarProperty Name="SubelerID" ColumnName="SubelerID" />
+          <ScalarProperty Name="SubeAdi" ColumnName="SubeAdi" />
+          <ScalarProperty Name="SubeKodu" ColumnName="SubeKodu" />
+          <ScalarProperty Name="Telefon1" ColumnName="Telefon1" />
+          <ScalarProperty Name="Telefon2" ColumnName="Telefon2" />
+          <ScalarProperty Name="ilID" ColumnName="ilID" />
+          <ScalarProperty Name="ilceID" ColumnName="ilceID" />
+          <ScalarProperty Name="Adres" ColumnName="Adres" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="SmartBankDBModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UrunDetaylari">
+      <EntityTypeMapping TypeName="SmartBankDBModel.UrunDetaylari">
+        <MappingFragment StoreEntitySet="UrunDetaylari">
+          <ScalarProperty Name="KullaniciID" ColumnName="KullaniciID" />
+          <ScalarProperty Name="UrunDetaylariID" ColumnName="UrunDetaylariID" />
+          <ScalarProperty Name="DetayBilgisi" ColumnName="DetayBilgisi" />
+          <ScalarProperty Name="UrunID" ColumnName="UrunID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Urunler">
+      <EntityTypeMapping TypeName="SmartBankDBModel.Urunler">
+        <MappingFragment StoreEntitySet="Urunler">
+          <ScalarProperty Name="KullaniciID" ColumnName="KullaniciID" />
+          <ScalarProperty Name="UrunlerID" ColumnName="UrunlerID" />
+          <ScalarProperty Name="UrunAdi" ColumnName="UrunAdi" />
+          <ScalarProperty Name="UrunTuruID" ColumnName="UrunTuruID" />
+          <ScalarProperty Name="Aciklama" ColumnName="Aciklama" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UrunTurleri">
+      <EntityTypeMapping TypeName="SmartBankDBModel.UrunTurleri">
+        <MappingFragment StoreEntitySet="UrunTurleri">
+          <ScalarProperty Name="KullaniciID" ColumnName="KullaniciID" />
+          <ScalarProperty Name="UrunTurleriID" ColumnName="UrunTurleriID" />
+          <ScalarProperty Name="Adi" ColumnName="Adi" />
+          <ScalarProperty Name="Aciklama" ColumnName="Aciklama" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Yetkiler">
+      <EntityTypeMapping TypeName="SmartBankDBModel.Yetkiler">
+        <MappingFragment StoreEntitySet="Yetkiler">
+          <ScalarProperty Name="YetkilerID" ColumnName="YetkilerID" />
+          <ScalarProperty Name="YetkiAdi" ColumnName="YetkiAdi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ilceler">
+      <EntityTypeMapping TypeName="SmartBankDBModel.ilceler">
+        <MappingFragment StoreEntitySet="ilceler">
+          <ScalarProperty Name="ilID" ColumnName="ilID" />
+          <ScalarProperty Name="ilceAdi" ColumnName="ilceAdi" />
+          <ScalarProperty Name="ilcelerID" ColumnName="ilcelerID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="iller">
+      <EntityTypeMapping TypeName="SmartBankDBModel.iller">
+        <MappingFragment StoreEntitySet="iller">
+          <ScalarProperty Name="SehirAdi" ColumnName="SehirAdi" />
+          <ScalarProperty Name="illerID" ColumnName="illerID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Personeller">
+      <EntityTypeMapping TypeName="SmartBankDBModel.Personeller">
+        <MappingFragment StoreEntitySet="Personeller">
+          <ScalarProperty Name="KullaniciID" ColumnName="KullaniciID" />
+          <ScalarProperty Name="Resim" ColumnName="Resim" />
+          <ScalarProperty Name="DogumTarihi" ColumnName="DogumTarihi" />
+          <ScalarProperty Name="DogumYeri" ColumnName="DogumYeri" />
+          <ScalarProperty Name="MedeniHali" ColumnName="MedeniHali" />
+          <ScalarProperty Name="Cinsiyet" ColumnName="Cinsiyet" />
+          <ScalarProperty Name="Soyadi" ColumnName="Soyadi" />
+          <ScalarProperty Name="Adi" ColumnName="Adi" />
+          <ScalarProperty Name="TC" ColumnName="TC" />
+          <ScalarProperty Name="PersonellerID" ColumnName="PersonellerID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BireyselMusteriler">
+      <EntityTypeMapping TypeName="SmartBankDBModel.BireyselMusteriler">
+        <MappingFragment StoreEntitySet="BireyselMusteriler">
+          <ScalarProperty Name="KullaniciID" ColumnName="KullaniciID" />
+          <ScalarProperty Name="MusteriTurID" ColumnName="MusteriTurID" />
+          <ScalarProperty Name="Adres" ColumnName="Adres" />
+          <ScalarProperty Name="Maas" ColumnName="Maas" />
+          <ScalarProperty Name="AylikKazanci" ColumnName="AylikKazanci" />
+          <ScalarProperty Name="Meslek" ColumnName="Meslek" />
+          <ScalarProperty Name="Telefon" ColumnName="Telefon" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="DogumTarihi" ColumnName="DogumTarihi" />
+          <ScalarProperty Name="DogumYeri" ColumnName="DogumYeri" />
+          <ScalarProperty Name="MedeniHali" ColumnName="MedeniHali" />
+          <ScalarProperty Name="Cinsiyet" ColumnName="Cinsiyet" />
+          <ScalarProperty Name="Soyadi" ColumnName="Soyadi" />
+          <ScalarProperty Name="Adi" ColumnName="Adi" />
+          <ScalarProperty Name="TC" ColumnName="TC" />
+          <ScalarProperty Name="BireyselMustrilerID" ColumnName="BireyselMustrilerID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
